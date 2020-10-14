@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/light_blue"
+        android:id="@+id/imageView_radio"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:text="Magic 80s Florida"
+        android:id="@+id/textView_radio_name"/>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:inputType="number"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtTimer"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/spinnerUnit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="#fff"
+            android:id="@+id/btCancel"
+            android:text="cancel"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:background="#fff"
+            android:id="@+id/btOK"
+            android:text="OK"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

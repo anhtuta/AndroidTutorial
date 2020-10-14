@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Bai27 Auto Complete</string>
+    <string-array name="arrTP">
+        <item>Hà Nội</item>
+        <item>Hải Phòng</item>
+        <item>Vinh</item>
+        <item>Thanh Hóa</item>
+        <item>Sài Gòn</item>
+        <item>Sài Sơn</item>
+        <item>Hà Nam</item>
+        <item>Thái Nguyên</item>
+        <item>Tây Ninh</item>
+        <item>Tuyên Quang</item>
+        <item>Đà Nẵng</item>
+        <item>Đà Lạt</item>
+        <item>Hà Tây</item>
+        <item>Hội An</item>
+    </string-array>
+</resources>

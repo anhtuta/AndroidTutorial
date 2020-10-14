@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_menu"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always">
+
+    </item>
+
+
+    <item android:id="@+id/mnGreen_text"
+        android:title="To mau xanh cho text" />
+    <item android:id="@+id/mnRed_text"
+        android:title="To mau do cho text" />
+    <item android:id="@+id/mnYellow_text"
+        android:title="To mau vang cho text" />
+
+</menu>

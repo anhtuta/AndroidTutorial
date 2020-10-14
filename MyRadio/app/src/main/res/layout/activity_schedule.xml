@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_open_timer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="vn.edu.hust.tung.myradio.ScheduleActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="btChooseDayEvent"
+            android:id="@+id/btChooseDay"
+            android:text="Choose day "
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tvDay"
+            android:textSize="25dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="btChooseTimeEvent"
+            android:id="@+id/btChooseTime"
+            android:text="Choose time"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tvTime"
+            android:textSize="25dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Select channel to set timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinnerChannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="set schedule"
+        android:onClick="btOk_PickerEvent"
+        android:id="@+id/btOK_Picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="@color/blue"
+        android:textSize="15dp"
+        android:text="This channel has been scheduled:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="61dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:text=""
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_scheduled_channel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="Delete schedule"
+        android:onClick="btDeleteScheduleEvent"
+        android:id="@+id/btDelete_schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

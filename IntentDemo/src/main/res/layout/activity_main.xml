@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.bkhn.anhtu.intentdemo.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/label1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#7b9ffc"
+                android:text="This is Activity1"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/label2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter the phone number you want to call"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtPhoneNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="54dp"
+                android:text="0975233700"
+                android:hint="example: 0975233700"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/btnCallActivity2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Open dial"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/btCall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call now"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/btPickContact"
+                    android:onClick="btPickContactEvent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pick a contact"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/txtWords"
+                android:hint="enter something to search on Google.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search on google"
+                android:onClick="btOpenWebEvent"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                android:id="@+id/btDisplayImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Display an image"
+                android:onClick="btDisplayImageEvent"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/txtUrl"
+                android:hint="enter the link to go"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btViewAWebPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open web page"
+                android:onClick="btViewAWebPageEvent"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                android:id="@+id/btGeographyCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Geo Mapping an Address) Open Nha hat lon ha noi in Google Map"
+                android:onClick="btGeoCodeEvent"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/txtAdress"
+                android:hint="enter address to open google Map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btOpenMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View in google map"
+                android:onClick="btOpenMapEvent"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                android:id="@+id/btOpenMusicPlayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Launch the music player"
+                android:onClick="btOpenMusicPlayerEvent"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                android:id="@+id/btPlayASong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play a song"
+                android:onClick="btPlayASongEvent"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

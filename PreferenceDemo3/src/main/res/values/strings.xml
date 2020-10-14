@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Preference Demo 3</string>
+<string name="action_settings">Settings</string>
+<string name="hello_world">Hello world!</string>
+<string name="save">save to intenal storage</string>
+<string name="read">load from intenalstorag</string>
+</resources>

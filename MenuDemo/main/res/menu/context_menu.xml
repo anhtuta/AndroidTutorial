@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/contextmn_Bold"
+          android:title="In dam" />
+    <item android:id="@+id/contextmn_Italic"
+        android:title="In nghieng" />
+    <item android:id="@+id/contextmn_Delete"
+        android:title="Delete this button/TextView" />
+
+</menu>
+<!-- chú ý là các item này có thể dùng cho option menu cũng đc, nhưng để vào file context_menu thì nên áp
+dụng cho context_menu để dễ quản lý -->

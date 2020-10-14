@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bai31 Languages</string>
+    <string name="xuan">spring</string>
+    <string name="he">summer</string>
+    <string name="thu">autumn</string>
+    <string name="dong">winter</string>
+</resources>

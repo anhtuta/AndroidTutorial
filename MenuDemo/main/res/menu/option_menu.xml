@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnGreen"
+        android:title="To mau xanh cho background" />
+    <item android:id="@+id/mnRed"
+        android:title="To mau do cho background" />
+    <item android:id="@+id/mnYellow"
+        android:title="To mau vang cho background" />
+
+    <item android:id="@+id/mnGreen_text"
+        android:title="To mau xanh cho text" />
+    <item android:id="@+id/mnRed_text"
+        android:title="To mau do cho text" />
+    <item android:id="@+id/mnYellow_text"
+        android:title="To mau vang cho text" />
+
+</menu>
